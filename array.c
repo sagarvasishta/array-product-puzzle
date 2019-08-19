@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,a[10],b[10],i,sum=1;
+    int n,a[10],b[10],i,prod=1;
     printf("enter size");
     scanf("%d",&n);
     printf("enter array");
@@ -9,12 +9,12 @@ int main()
     scanf("%d",&a[i]);
     for(i=0;i<n;i++)
     {
-        sum=sum*a[i];
+        prod=prod*a[i];
     }
-    printf("sum = %d ",sum);
+    printf("sum = %d ",prod);
     for(int j=0;j<n;j++)
     {
-        b[j]=sum/a[j];
+        b[j]=prod/a[j];
     }
     printf("new array");
     for(int j=0;j<n;j++)
