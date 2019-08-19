@@ -19,4 +19,5 @@ int main()
     printf("new array");
     for(int j=0;j<n;j++)
         printf("%d ",b[j]);
+    return 0;
 }
